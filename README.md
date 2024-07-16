@@ -1,4 +1,4 @@
-# DisasterResponse
+# Project: Disaster Response Pipeline
 udacity project
 # ETL pipeline (clean data and store in database)
 python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
