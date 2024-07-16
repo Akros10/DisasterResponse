@@ -5,6 +5,11 @@ There are 3 main parts:
 1. ETL Pipeline to import messages and categories and store them in a cleaned database.
 2. ML Pipeline, for training an ML to classify messages.
 3. WebApp to show the classification for every message as an input.
+
+# Files
+1. data/process_data.py: import messages & categories, clean and merge them, then store in database.
+2. models/train_classifier: load db, train & tune model and store model for classification of messages.
+3. app/run.py: run the webapp
    
 # How to use it?
 ## ETL pipeline (clean data and store in database)
